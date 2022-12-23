@@ -36,6 +36,28 @@
             "program": "${workspaceFolder}\\data\\product\\products2.js",
             "args": ["--port=3000"],
             "outputCapture": "console"
+        },
+        {
+            "type": "node",
+            "request": "launch",
+            "name": "currentUser",
+            "skipFiles": [
+                "<node_internals>/**"
+            ],
+            "program": "${workspaceFolder}\\currentUser.js",
+            "args": ["--port=3000"],
+            "outputCapture": "console"
+        },
+        {
+            "type": "node",
+            "request": "launch",
+            "name": "uploadPic",
+            "skipFiles": [
+                "<node_internals>/**"
+            ],
+            "program": "${workspaceFolder}\\data\\uploadPic.js",
+            "args": ["--port=3000"],
+            "outputCapture": "console"
         }
     ]
 }
