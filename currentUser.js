@@ -3,8 +3,6 @@ const sharetribeSdk = require('sharetribe-flex-sdk');
 const { UUID } = require('sharetribe-flex-integration-sdk').types;
 
 // const sdk = sharetribeSdk.createInstance({
-//   clientId: '752e86c5-781e-4315-af46-09c10d83e5f3' //PROD
-//   // clientId: '9d7125aa-5098-472d-9af2-a8a87f8a1605'    //STG
 // });
 
 // sdk.currentUser.create({ 
@@ -21,6 +19,7 @@ const { UUID } = require('sharetribe-flex-integration-sdk').types;
 // });
 
 const integrationSdk = sharetribeIntegrationSdk.createInstance ({
+  // production keys 
   clientId: '9e83d859-17f9-44cd-b709-ee94792d5874',
   clientSecret: '248b028c662c42000cbf471e84683d8570efca4d'
 });
